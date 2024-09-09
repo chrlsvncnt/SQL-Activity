@@ -14,8 +14,8 @@ CREATE TABLE Posts (
     PostDescription VARCHAR(255),
     PostedBy INT,
     IsVisible BOOLEAN,
-  IsPublic BOOLEAN,
- IsOnlyForFriends BOOLEAN,
+    IsPublic BOOLEAN,
+    IsOnlyForFriends BOOLEAN,
     GroupID INT,
     DatePosted TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
